@@ -36,6 +36,23 @@ i {
     margin-left: 10px;
   }
 
+  @media screen and (max-width: 768px) {
+    .navbar-collapse {
+      background-color: black;
+      opacity: 0.7;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      margin-top: 5px;
+    }
+
+    .nav-item:hover {
+      border: 3px solid white;
+      margin-bottom: 5px;
+      margin-top: 5px;
+      border-radius: 30px;
+    }
+  }
+
   @media screen and (min-width: 769px) {
     .navbar-dark .navbar-nav .nav-link:hover {
       padding-bottom: 2px;
@@ -51,28 +68,10 @@ i {
   .banner-text {
     background-color: black;
     opacity: .8;
-    width: 75%;
     margin: auto;
     border-radius: 10px;
+    padding-bottom: 10px;
   }
-
-  .material-icons {
-    color: white;
-  }
-
-  div.mdl-layout__drawer-button {
-      display: none;
-  }
-
- /* div.mdl-layout__drawer {
-    position: fixed;
-    z-index: 5;
-}
-
-
-  div.mdl-layout__obfuscator {
-    position: fixed;
-  }*/
   
   .banner-text h1 {
     font-size: 66px;
@@ -90,13 +89,6 @@ i {
     color: white;
     font-size: 20px;
     padding: 1em;
-  }
-  
-  .social-links {
-    justify-content: space-between;
-    display: flex;
-    width: 50%;
-    margin: auto;
   }
   
   .social-links i {
@@ -118,7 +110,7 @@ i {
     }
 
     .social-links i {
-        font-size: 2em;
+        font-size: 2.5em;
     }
   }
 
